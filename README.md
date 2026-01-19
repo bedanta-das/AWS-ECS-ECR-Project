@@ -9,3 +9,24 @@ This project demonstrates end-to-end deployment of a Node.js application using A
 * View application logs in Amazon CloudWatch
 * Secure access using IAM roles and policies
 This project is designed for Cloud Engineers, DevOps Engineers, and AWS beginners who want real-world hands-on experience.
+
+## 🏗️ Architecture Diagram (Conceptual)
+
+GitHub 
+   |
+   |
+   V
+EC2 (Docker Build)
+       |
+       |
+       V
+    ECR (Docker Image Registry)
+               |
+               |
+               V
+            ECS (Fargate - Serverless Containers)
+                              |
+                              |
+                              V
+                        CloudWatch (Logs & Monitoring)
+  
