@@ -41,8 +41,20 @@ This project is designed for Cloud Engineers, DevOps Engineers, and AWS beginner
       CloudWatch	                               Logs & monitoring
 
 ## 📂 Application Details
+
 * Application Type: Node.js (Todo App)
 * Port: 3000
 * Container Runtime: Docker
 * Deployment Type: Serverless (AWS Fargate)
+
+## ⚙️ Prerequisites
+
+* AWS Account
+* Basic understanding of:
+  * Linux
+  * Docker
+  * AWS IAM
+* AWS CLI installed
+* Docker installed
+* Git installed
   
