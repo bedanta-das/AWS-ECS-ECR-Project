@@ -58,7 +58,7 @@ This project is designed for Cloud Engineers, DevOps Engineers, and AWS beginner
 * Docker installed
 * Git installed
 
-🛠️ Step-by-Step Implementation
+## 🛠️ Step-by-Step Implementation
 1️⃣ Clone the GitHub Repository
 
             git clone https://github.com/bedanta-das/AWS-ECS-ECR-Project.git
@@ -134,7 +134,7 @@ Architecture: x86_64 / ARM64
 * Launch task using the created task definition
 * Use default VPC & subnets
 
-🌐 Access Application
+## 🌐 Access Application
 * Copy Public IP of the ECS task
 * Open browser:
 
@@ -142,7 +142,7 @@ Architecture: x86_64 / ARM64
 
 🎉 Your Node.js Todo App is now live on AWS ECS!
 
-📊 Monitoring & Logs
+## 📊 Monitoring & Logs
 CloudWatch Logs
 Path:
 
@@ -153,13 +153,13 @@ You can view:
 * Container start/stop logs
 * Errors & debugging info
 
-🔐 Security Notes
+## 🔐 Security Notes
 * IAM User used only for:
 * ECR push access
 * ECS uses Task Execution Role
 * Port 8000 must be allowed in Security Group
 
-🧠 Common Issues & Fixes
+## 🧠 Common Issues & Fixes
 ❌ App Not Accessible
 
             ✔️ Ensure port 8000 is allowed in ECS task security group.
