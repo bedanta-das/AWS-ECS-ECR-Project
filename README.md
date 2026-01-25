@@ -112,7 +112,7 @@ Architecture: x86_64 / ARM64
             docker tag node-app:latest public.ecr.aws/<repo-id>/node-app:latest
             docker push public.ecr.aws/<repo-id>/node-app:latest
 
-🚢 Deploy Using Amazon ECS (Fargate)
+## 🚢 Deploy Using Amazon ECS (Fargate)
 8️⃣ Create ECS Cluster
 * Cluster Name: node-app-cluster
 * Infrastructure: AWS Fargate
