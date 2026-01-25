@@ -57,4 +57,35 @@ This project is designed for Cloud Engineers, DevOps Engineers, and AWS beginner
 * AWS CLI installed
 * Docker installed
 * Git installed
+
+🛠️ Step-by-Step Implementation
+1️⃣ Clone the GitHub Repository
+
+            git clone https://github.com/bedanta-das/AWS-ECS-ECR-Project.git
+            
+2️⃣ Launch EC2 Instance (Build Server)
+* AMI: Ubuntu
+* Instance Type: t2.micro (Free Tier)
+* Purpose: Build Docker image and push to ECR
+
+Install required tools:
   
+            sudo apt update
+            sudo apt install docker.io unzip -y
+
+Add user to Docker group:
+
+            sudo usermod -aG docker $USER
+            reboot
+
+3️⃣ Install AWS CLI
+
+            curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+            sudo apt install unzip
+            unzip awscliv2.zip
+            sudo ./aws/install
+            aws --version
+
+Configure AWS credentials:
+
+aws configure
