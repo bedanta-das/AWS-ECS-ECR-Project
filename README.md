@@ -168,3 +168,9 @@ You can view:
 
             ✔️ Verify IAM permissions:
             AmazonEC2ContainerRegistryPublicFullAccess
+
+## Output
+
+
+## 📄 License
+This project is provided for learning and demonstration purposes. Feel free to use, modify, & distribute.
