@@ -114,7 +114,7 @@ Install required tools:
 
 * To configure AWS we need Access Key and Secret Access Key. For that we need to go to IAM Users, select one user and create Access Key
 
-  <img src="Images/13.png" width="400">
+<img src="Images/13.png" width="400">
 
 aws configure
 
@@ -152,7 +152,7 @@ Architecture: x86_64 / ARM64
 
 <img src="Images/18.png" width="400">
 
-  <img src="Images/19.png" width="400">
+<img src="Images/19.png" width="400">
 
 ## 🚢 Deploy Using Amazon ECS (Fargate)
 8️⃣ Create ECS Cluster
@@ -186,7 +186,7 @@ Architecture: x86_64 / ARM64
 
             http://<PUBLIC-IP>:3000
 
-  <img src="Images/22.png" width="400">
+<img src="Images/22.png" width="400">
 
 🎉 Your Node.js Todo App is now live on AWS ECS!
 
