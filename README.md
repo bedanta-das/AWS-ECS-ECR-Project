@@ -67,12 +67,10 @@ This project is designed for Cloud Engineers, DevOps Engineers, and AWS beginner
 * AMI: Ubuntu
 * Instance Type: t2.micro (Free Tier)
   <img src="Images/1.png" width="800">
-* Purpose: Build Docker image and push to ECR
+* Connect with SSH
   <img src="Images/2.png" width="800">
 
   <img src="Images/3.png" width="800">
-
-  <img src="Images/4.png" width="800">
 
   <img src="Images/5.png" width="800">
 
@@ -83,18 +81,34 @@ Install required tools:
 
 <img src="Images/6.png" width="800">
 
+<img src="Images/7.png" width="800">
 Add user to Docker group:
 
             sudo usermod -aG docker $USER
             reboot
+<img src="Images/8.png" width="800">
 
 3️⃣ Install AWS CLI
 
             curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+            
+<img src="Images/9.png" width="800">
+
             sudo apt install unzip
+
+<img src="Images/10.png" width="800">
+
             unzip awscliv2.zip
+
+<img src="Images/11.png" width="800">
+
             sudo ./aws/install
+
+<img src="Images/12.png" width="800">
+
             aws --version
+
+            
 
 Configure AWS credentials:
 
