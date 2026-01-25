@@ -66,12 +66,22 @@ This project is designed for Cloud Engineers, DevOps Engineers, and AWS beginner
 2️⃣ Launch EC2 Instance (Build Server)
 * AMI: Ubuntu
 * Instance Type: t2.micro (Free Tier)
+  <img src="Images/1.png" width="800">
 * Purpose: Build Docker image and push to ECR
+  <img src="Images/2.png" width="800">
+
+  <img src="Images/3.png" width="800">
+
+  <img src="Images/4.png" width="800">
+
+  <img src="Images/5.png" width="800">
 
 Install required tools:
   
             sudo apt update
             sudo apt install docker.io unzip -y
+
+<img src="Images/6.png" width="800">
 
 Add user to Docker group:
 
