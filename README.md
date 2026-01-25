@@ -82,7 +82,7 @@ Install required tools:
 <img src="Images/6.png" width="800">
 
 <img src="Images/7.png" width="800">
-Add user to Docker group:
+* Add user to Docker group:
 
             sudo usermod -aG docker $USER
             reboot
@@ -90,27 +90,27 @@ Add user to Docker group:
 
 3️⃣ Install AWS CLI
 
-            curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+           * curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
             
 <img src="Images/9.png" width="800">
 
-            sudo apt install unzip
+           * sudo apt install unzip
 
 <img src="Images/10.png" width="800">
 
-            unzip awscliv2.zip
+           * unzip awscliv2.zip
 
 <img src="Images/11.png" width="800">
 
-            sudo ./aws/install
+           * sudo ./aws/install
 
 <img src="Images/12.png" width="800">
 
-            aws --version
+           * aws --version
 
             
 
-Configure AWS credentials:
+* Configure AWS credentials:
 
 aws configure
 
