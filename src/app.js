@@ -1,5 +1,4 @@
 // src/app.js
-// Clean & fresh Todo List app (Docker-safe, no nested template literals)
 
 const express = require("express");
 const app = express();
@@ -110,4 +109,5 @@ app.delete('/todos/:index', (req, res) => {
 
 app.listen(PORT, '0.0.0.0', () => {
   console.log('Todo app running at http://localhost:' + PORT);
+
 });
